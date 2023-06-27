@@ -1,0 +1,8 @@
+<h1 mat-dialog-title>Do you want delete this data?</h1>
+<div mat-dialog-content>
+  This action can't be reverted.
+</div>
+<div mat-dialog-actions>
+  <button mat-button type="button" [mat-dialog-close]="false">Cancel</button>
+  <button mat-button type="submit" color="warn" [mat-dialog-close]="true">Delete</button>
+</div>
